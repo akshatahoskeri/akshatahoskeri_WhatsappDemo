@@ -1,0 +1,112 @@
+
+body {
+  overflow-y:hidden;
+}
+
+.img-profile{
+	width:4vmax;
+	height:4vmax;
+	
+}
+
+.menu-icon{
+	width:3vmax;
+	height:3vmax;
+}
+
+.chatItem:hover{
+	background-color: #EDE9E8;
+}
+
+
+.img-friend{
+	max-width: 70%;
+	height:auto;
+	padding:5px;
+}
+
+.chatlist{
+	max-height: 70vmin;
+	overflow-y: auto;
+}
+
+
+.chat-panel{
+	background-color: #D7DBDD;
+	height: 77vmin;
+	overflow-y: auto;
+	padding-top: 5px;
+	padding-left: 40px;
+	padding-right: 40px; 
+}
+
+.chatContentItem{
+	max-width: 60vmax;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	border-radius: 5px;
+
+}
+
+#sentImage{
+	width:20vmax;
+	height:20vmax;
+}
+
+.input-panel, .search-panel{
+	background-color: #f2f2f2;
+}
+
+.inputText{
+	padding:1vmax;
+}
+
+.chatWindow{
+		max-height:78vmin;
+		overflow-y: auto;
+		background-color: #D7DBDD;
+		padding-top: 5px;
+		padding-left: 40px;
+		padding-right: 40px; 
+}
+
+.profile-panel{
+	height: 72vmin;
+}
+.profilepic{
+	width:20vmax;
+	height:20vmax;
+}
+
+
+.nameBar, .aboutBar{
+	height:22vmin;
+	background-color: #AED6F1;
+
+}
+
+@media only screen and (max-width: 768px){
+	.chatlist{
+		max-height:70vmax;
+		overflow-y: auto;
+	}
+
+	.chatWindow{
+		max-height:80vmax;
+		overflow-y: auto;
+	}
+	.profile-panel{
+		height:90vmax;
+	}
+	.profilepic{
+		height:30vmax;
+		width:30vmax;
+	}
+	.nameBar, .aboutBar{
+	height:30vmax;
+
+	}
+
+}
